@@ -42,4 +42,20 @@ Zesty(Food Ordering app Layout)
 Normal JS variable
 -let ListOfRestaurants = [];
 state variable
--const [ListOfRestaurants] = useState([]);
+-const [ListOfRestaurants] = useState([]);\
+
+
+setListOfRestaurants(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants);
+
+npm install -D tailwindcss postcss
+npx tailwindcss init
+
+# Redux Toolkit
+
+- Install @reduxjs/toolkit and react-redux
+- build our store
+- connect our store to our app
+- slice
+- dispatcher
+- reducer function
+- selector
